@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Syarif Jumhur</title>
+    <link rel="icon" href="assets/Foto_Diri-removebgg.jpg">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Syarif Jumhur</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Syarif Jumhur</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Foto_Diri-removebg.jpg" alt="Syarif Jumhur profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Syarif 'Jumhur' Annabil</h1>
+        <p class="section__text__p2">Information System Diploma</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV_Syarif_Jumhur_SuperFix.pdf')"
+          >
+            Download CV
+          </button>
+          <!-- <button 
+            class="btn btn-color-2" 
+            onclick="window.open('./assets/CV_Syarif_Jumhur.pdf')"
+            >
+            Portofolio
+          </button> -->
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/github.png"
+            alt="github profile"
+            class="icon"
+            onclick="window.open('https://github.com/syarifjumhur', '_blank')"
+          />
+          <img
+            src="./assets/87390.png"
+            alt="My Instagram profile"
+            class="icon"
+            onclick="window.open('https://Instagram.com/syarifjumhur_', '_blank')"
+          />
+
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/diri_tel.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Education</h3><br>
+              <h4>SMAN 1 Pandaan</h4>
+              <h5>2019-2022</h5>
+              <p>Ilmu Pengetahuan Alam</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3><br>
+              <h4>Universitas Telkom</h4>
+              <h5>2022-Sekarang</h5>
+              <p>Diploma Sistem Informasi</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Mahasiswa Diploma Sistem Informasi dari Universitas Telkom, Bandung, memiliki kemampuan di bidang
+Web Design, Manajemen Database, Proses Bisnis, Bahasa Pemrograman, Analisis Data, dan UI/UX
+Designer. Saya berpengalaman dalam mengikuti organisasi dan kepanitian di kampus. Saya memiliki
+semangat tinggi untuk terus belajar dan mengembangkan diri, serta memiliki kemauan yang kuat untuk
+meningkatkan kemampuan interpersonal dan problem solving. Meskipun berasal dari jurusan Sistem
+Informasi, saya memiliki ketertarikan pada bidang marketing.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Organisasi</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon" -->
+                <!-- /> -->
+                <!-- <div>
+                  <h3>HMDSI</h3>
+                  <P>Wakadiv Orsenbud</P>
+                </div> -->
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Himpunan mahasiswa Sistem Informasi</h3>
+                  <h5>Wakadiv Olahraga Seni Budaya</h5>
+                  <p>Menjadikan Divisi Terbaik 2022<br>
+                  Sering mengikuti kejuaraan futsal</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Oasis Fraternity 2023</h3>
+                  <h5>Wakadiv Acara</h5>
+                  <p>Bertanggung jawab untuk Menyusun kegiatan acara <br>
+                    Membuat proposal untuk diserahkan kepada kaprodi</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Groovy 3.0 2023 </h3>
+                  <h5>Wakadiv LO</h5>
+                  <p>Melakukan wawancara pada calon panitia Groovy 3.0<BR>
+                    Membantu divisi acara menyusun Rundown acara</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Hard Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML, Canva, Figma, Microsoft, AI, Capcut</h3>
+                  <p>Advanced</p>
+                </div>                
+              </article>
+              <BR>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP, MySQL, Js, Adobe Photoshop, Google Colab</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <br>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python, Flutter, Dart </h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/jokiwithsyca.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Bisnis Owner</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://instagram.com/jokiwithsyca', '_blank')"
+              >
+                Instagram
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container1">
+              <img
+                src="./assets/admincrud.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Web+CRUD bootstrap</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Syarifjumhur/Website-CRUD', '_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/figma_receive.jpeg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Design Apps Mobile</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://www.figma.com/design/GS0ZnFgtz3K4weMsekpvag/Receive-Clean?node-id=88-535&t=DtmAMIXsI19NI1O5-1', '_blank')"
+              >
+                Figma
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:syarifjumhur@gmail.com">syarifjumhur@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/syarifjumhur" target="_blank">Syarif Jumhur</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Syarif Jumhur.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
